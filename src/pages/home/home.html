@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="screen">
+      <ion-card-content>
+        {{ expression }}
+    </ion-card-content>
+      <div class="answer">
+        {{ answer }}
+      </div>
+  </ion-card>
+  <ion-card class="container">
+      <button *ngFor="let char of contents" ion-button color="dark" class="butt">{{ char }}</button>
+  </ion-card>
+</ion-content>

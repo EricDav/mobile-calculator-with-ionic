@@ -1,0 +1,29 @@
+page-home {
+    .screen {
+        background-color: red;
+        width: 93%;
+        height: 100px;
+        margin-right: 40px;
+    }
+    .answer {
+        margin-left: 110px;
+        margin-top: 27px;
+        height: 20px;
+        text-align: right;
+        position: fixed;
+        width: 200px;
+        font-size: 20px;
+    }
+    .container {
+        margin-top: 60%;
+        background-color: pink;
+        width: 93%;
+        height: 150px;
+    }
+    .butt {
+        width: 18.5%;
+        position: relative;
+        height: 25px;
+        float: left;
+    }
+}
